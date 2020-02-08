@@ -1,0 +1,26 @@
+isaac.ini
+config.ini
+*.swp
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.json
+**/.DS_Store
+images/*
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# due to using tox and pytest
+.tox
+.cache
+
+
+weights/
